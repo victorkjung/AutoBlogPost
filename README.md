@@ -1,5 +1,5 @@
 # AutoBlogPost: The Ultimate Prompt Automation Tool for ChatGPT
-The AutoBlogPost prompt automation tool which allows the user to paste the url and tone of voice for ChatGPT to create a prompt
+The AutoBlogPost prompt automation tool which allows the user to paste the url and tone of voice for ChatGPT to create a prompt. This is framework you can use to expand use case.
 
 Streamlit is a powerful and innovative automation tool designed to enhance your experience with ChatGPT. By seamlessly integrating with the popular language model, it simplifies the process of generating prompts, making it easier and more efficient than ever before.
 
