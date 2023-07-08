@@ -60,6 +60,9 @@ The application uses the following template paragraph as a starting point for ge
 
 ## Community and Contributions
 
+Test version of the Streamlit app can be tested on https://autoblogpost-vkjvgh2023.streamlit.app/
+It should be customized to your task, and full version that summarizes the article using OpenAI ChatGPT is on the 
+
 Streamlit has a vibrant and supportive community of developers, researchers, and enthusiasts. Join the conversation, ask questions, share your experiences, and stay up to date with the latest developments by visiting our [Community Forum](https://community.streamlit.io).
 
 We welcome contributions from the community to enhance and improve Streamlit. If you encounter any issues or have suggestions for new features, please [submit an issue](https://github.com/streamlit/streamlit/issues) on our GitHub repository.
