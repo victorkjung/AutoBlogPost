@@ -3,7 +3,7 @@ import streamlit as st
 def display_sidebar():
     st.sidebar.header("About this App")
     st.sidebar.write("""
-        This application generates customer blog prompts for ChatGPT.
+        This application generates prompt to summarize a business article into a social media post using OpenAI ChatGPT.
     """)
 
     st.sidebar.header("Instructions")
@@ -15,20 +15,20 @@ def display_sidebar():
 
     st.sidebar.markdown(
         """
-        [Buy :star-struck: me a coffee](https://www.buymeacoffee.com/5gDeDWWMCI)
+        [Buy :star-struck: me a :coffee: coffee](https://www.buymeacoffee.com/5gDeDWWMCI)
         """,
         unsafe_allow_html=True,
     )
 
 def main():
     # Set the title of the application
-    st.title("Editorial Copywriter :robot_face: Bot")
+    st.title("Business Editorial :robot_face: Bot")
 
     # Display the sidebar
     display_sidebar()
 
     # Define your template paragraph
-    template = ("You are a business reporter for the Wall Street Journal. "
+    template = ("You are an award-winning business reporter for the Wall Street Journal. "
                 "Summarize the following article into a **{Tone}** Linkedin 500 word "
                 "post of 7 sections - Headline, introduction about the topic, "
                 "listicle on key points, an overview of the topic, an analysis of "
