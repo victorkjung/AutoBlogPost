@@ -61,7 +61,7 @@ The application uses the following template paragraph as a starting point for ge
 ## Community and Contributions
 
 Test version of the Streamlit app can be tested on https://autoblogpost-vkjvgh2023.streamlit.app/
-It should be customized to your task, and full version that summarizes the article using OpenAI ChatGPT is on the 
+It should be customized to your task, and full version that summarizes the article using OpenAI ChatGPT is my other Github repository https://github.com/victorkjung/BusinessEditorialBot
 
 Streamlit has a vibrant and supportive community of developers, researchers, and enthusiasts. Join the conversation, ask questions, share your experiences, and stay up to date with the latest developments by visiting our [Community Forum](https://community.streamlit.io).
 
