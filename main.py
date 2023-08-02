@@ -28,16 +28,16 @@ def main():
     display_sidebar()
 
     # Define your template paragraph
-    template = ("You are an award-winning business reporter for the Wall Street Journal. "
+    template = ("You are a business reporter for the Wall Street Journal. "
                 "Summarize the following article into a **{Tone}** Linkedin 500 word "
-                "post of 7 sections - Headline, introduction about the topic, "
+                "post of 7 sections - SEO Friendly Headline, introduction about the topic, "
                 "listicle on key points, an overview of the topic, an analysis of "
                 "the topic, supporting argument, and conclusion: **{URL}**")
     st.write("**PROMPT TEMPLATE:** ", template)
 
     # Create input boxes for the user to fill in their data
     url = st.text_input("Enter the URL", "")
-    tone = st.multiselect("Select Tone", ["Witty", "Professional", "Engaging", "Casual"])
+    tone = st.multiselect("Select Tone", ["Witty", "Professional", "Engaging", "Casual", "Sarcastic", "Fifth Grader"])
 
     # Create a button to generate the new result
     if st.button("Generate"):
