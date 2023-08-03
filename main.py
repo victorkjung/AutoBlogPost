@@ -29,10 +29,10 @@ def main():
 
     # Define your template paragraph
     template = ("You are a business reporter for the Wall Street Journal. "
-                "Summarize the following article into a **{Tone}** Linkedin 500 word "
+                "Summarize the following article into a **{Tone}** Linkedin 750 word "
                 "post of 7 sections - SEO Friendly Headline, introduction about the topic, "
-                "listicle on key points, an overview of the topic, an analysis of "
-                "the topic, supporting argument, and conclusion: **{URL}**")
+                "key points, an overview of the topic with statitics if applicable, an analysis of "
+                "the topic, supporting arguments, and conclusion: **{URL}**")
     st.write("**PROMPT TEMPLATE:** ", template)
 
     # Create input boxes for the user to fill in their data
